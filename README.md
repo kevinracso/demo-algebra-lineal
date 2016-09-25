@@ -14,4 +14,6 @@ Uso de algunas funciones de algebra lineal
             |  5|
             |  1|
 
-Probamos con `scipy.linalg.solve`, `scipy.linalg.solve_triangular`.
+Probamos con `scipy.linalg.solve` y un método con descomposicion PLU más `scipy.linalg.solve_triangular`.
+
+También demostramos la eficiencia de `solve_triangular` vs. `solve` para una matriz de 100x100.
